@@ -1,0 +1,54 @@
+{
+  "venue": "jupiter",
+  "url": "https://lite-api.jup.ag/swap/v1/quote?inputMint=So11111111111111111111111111111111111111112&outputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&amount=89164379&slippageBps=50",
+  "httpStatus": 200,
+  "latencyMs": 12,
+  "request": {
+    "inputMint": "So11111111111111111111111111111111111111112",
+    "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "amountAtomic": "89164379",
+    "slippageBps": 50
+  },
+  "body": {
+    "inputMint": "So11111111111111111111111111111111111111112",
+    "inAmount": "89164379",
+    "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "outAmount": "10000000",
+    "otherAmountThreshold": "9950000",
+    "swapMode": "ExactIn",
+    "slippageBps": 50,
+    "platformFee": null,
+    "priceImpactPct": "0",
+    "routePlan": [
+      {
+        "swapInfo": {
+          "ammKey": "82RLfDeEAoYtx3rwZF7igAQC1nGsBBvAMkygB5mcJojZ",
+          "label": "Flux",
+          "inputMint": "So11111111111111111111111111111111111111112",
+          "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "inAmount": "89164379",
+          "outAmount": "10000000",
+          "updateContextSlot": "455743008"
+        },
+        "percent": 100,
+        "bps": null
+      }
+    ],
+    "contextSlot": 455743009,
+    "timeTaken": 0.001663629,
+    "swapUsdValue": "9.9957153860623398076249",
+    "mostReliableAmmsQuoteReport": {
+      "info": {
+        "BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU": "9997945",
+        "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE": "9992546"
+      }
+    },
+    "longtailMarketQuoteReport": null,
+    "useIncurredSlippageForQuoting": null,
+    "useRewards": null,
+    "otherRoutePlans": null,
+    "loadedLongtailToken": false,
+    "instructionVersion": null,
+    "transactionVersion": 0
+  }
+}

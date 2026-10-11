@@ -1,0 +1,639 @@
+{
+  "venue": "swap.io",
+  "url": "<SWAPIO_QUOTE_URL>",
+  "httpStatus": 200,
+  "latencyMs": 1173,
+  "request": {
+    "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+    "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "amountAtomic": "2685958294",
+    "slippageBps": 50
+  },
+  "body": {
+    "success": true,
+    "timeTaken": 0.9720814228057861,
+    "quotes": [
+      {
+        "provider": {
+          "key": "okx-dex",
+          "id": "96",
+          "name": "OKX DEX",
+          "logo": "<SWAPIO_ASSET_URL>"
+        },
+        "input": {
+          "token": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "amount": "2685958294",
+          "chainKey": "sol",
+          "chainId": 101,
+          "chainName": "Solana",
+          "chainLogo": "<SWAPIO_ASSET_URL>",
+          "tokenSymbol": "JUP",
+          "tokenDecimals": 6
+        },
+        "output": {
+          "token": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "amount": "999656561",
+          "chainKey": "sol",
+          "chainId": 101,
+          "chainName": "Solana",
+          "chainLogo": "<SWAPIO_ASSET_URL>",
+          "tokenSymbol": "USDC",
+          "tokenDecimals": 6,
+          "amountFormatted": "999.656561"
+        },
+        "pricePerToken": 0.3722531858493556,
+        "priceImpactPct": 0,
+        "minimumOutAmount": "994857249",
+        "fees": {
+          "protocolFees": []
+        },
+        "routePlan": [
+          {
+            "input": {
+              "token": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+              "amount": "0",
+              "chainKey": "sol",
+              "chainId": 101,
+              "chainName": "Solana",
+              "chainLogo": "<SWAPIO_ASSET_URL>",
+              "tokenSymbol": "JUP",
+              "tokenName": "JUP",
+              "tokenDecimals": 6
+            },
+            "output": {
+              "token": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+              "amount": "0",
+              "chainKey": "sol",
+              "chainId": 101,
+              "chainName": "Solana",
+              "chainLogo": "<SWAPIO_ASSET_URL>",
+              "tokenSymbol": "USDC",
+              "tokenName": "USDC",
+              "tokenDecimals": 6
+            },
+            "percentage": 100,
+            "protocol": {
+              "key": "dflow-jit-router",
+              "poolAddress": "",
+              "id": "122",
+              "name": "DFlow JIT Router",
+              "logo": "<SWAPIO_ASSET_URL>"
+            },
+            "fee": {
+              "token": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+              "amount": "0"
+            }
+          }
+        ],
+        "slippageBps": 50,
+        "swapMode": "ExactIn",
+        "providerQuote": {
+          "chainIndex": "501",
+          "contextSlot": 455738463,
+          "dexRouterList": [
+            {
+              "dexProtocol": {
+                "dexName": "JIT Router",
+                "percent": "100"
+              },
+              "fromToken": {
+                "decimal": "6",
+                "isHoneyPot": false,
+                "latestMultiplier": "",
+                "taxRate": "0",
+                "tokenContractAddress": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+                "tokenSymbol": "JUP",
+                "tokenUnitPrice": "0.3724356019324133479283251563810113"
+              },
+              "fromTokenIndex": "0",
+              "toToken": {
+                "decimal": "6",
+                "isHoneyPot": false,
+                "latestMultiplier": "",
+                "taxRate": "0",
+                "tokenContractAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                "tokenSymbol": "USDC",
+                "tokenUnitPrice": "1"
+              },
+              "toTokenIndex": "1"
+            }
+          ],
+          "estimateGasFee": "138300",
+          "fromToken": {
+            "decimal": "6",
+            "isHoneyPot": false,
+            "latestMultiplier": "1",
+            "taxRate": "0",
+            "tokenContractAddress": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+            "tokenSymbol": "JUP",
+            "tokenUnitPrice": "0.3724356019324133479283251563810113"
+          },
+          "fromTokenAmount": "2685958294",
+          "mode": "dex",
+          "priceImpactPercent": "-0.05",
+          "quoteId": "2910117407753140002",
+          "router": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN--EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "signData": null,
+          "swapMode": "exactIn",
+          "toToken": {
+            "decimal": "6",
+            "isHoneyPot": false,
+            "latestMultiplier": "1",
+            "taxRate": "0",
+            "tokenContractAddress": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+            "tokenSymbol": "USDC",
+            "tokenUnitPrice": "1"
+          },
+          "toTokenAmount": "999856532",
+          "tradeFee": "0.0005611",
+          "slippage": "0.005",
+          "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+        },
+        "platformFee": {
+          "feeBps": 2,
+          "feeMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "feeAmount": "199971"
+        },
+        "bestQuote": true,
+        "routeSummary": "JUP → USDC via DFlow JIT Router"
+      },
+      {
+        "provider": {
+          "key": "jupiter",
+          "id": "34",
+          "name": "Jupiter",
+          "logo": "<SWAPIO_ASSET_URL>"
+        },
+        "input": {
+          "token": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "amount": "2685958294",
+          "chainKey": "sol",
+          "chainId": 101,
+          "chainName": "Solana",
+          "chainLogo": "<SWAPIO_ASSET_URL>"
+        },
+        "output": {
+          "token": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "amount": "999422430",
+          "chainKey": "sol",
+          "chainId": 101,
+          "chainName": "Solana",
+          "chainLogo": "<SWAPIO_ASSET_URL>",
+          "amountFormatted": "999.42243"
+        },
+        "priceImpactPct": 0.0004839428219507932,
+        "minimumOutAmount": "994624242",
+        "fees": {
+          "protocolFees": []
+        },
+        "routePlan": [
+          {
+            "input": {
+              "token": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+              "amount": "2685958294",
+              "chainKey": "sol",
+              "chainId": 101,
+              "chainName": "Solana",
+              "chainLogo": "<SWAPIO_ASSET_URL>"
+            },
+            "output": {
+              "token": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+              "amount": "999622354",
+              "chainKey": "sol",
+              "chainId": 101,
+              "chainName": "Solana",
+              "chainLogo": "<SWAPIO_ASSET_URL>"
+            },
+            "percentage": 100,
+            "protocol": {
+              "key": "GoonFi V2",
+              "poolAddress": "AkxuRa1soguFpVRjnDrRsXAcfTkZjRv1XyNXySzVivmC",
+              "id": "123",
+              "name": "GoonFi V2",
+              "logo": "<SWAPIO_ASSET_URL>"
+            }
+          }
+        ],
+        "slippageBps": 50,
+        "swapMode": "ExactIn",
+        "providerQuote": {
+          "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "inAmount": "2685958294",
+          "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "outAmount": "999622354",
+          "otherAmountThreshold": "994624243",
+          "swapMode": "ExactIn",
+          "slippageBps": 50,
+          "platformFee": null,
+          "priceImpactPct": "0.0004839428219507932037986762",
+          "routePlan": [
+            {
+              "swapInfo": {
+                "ammKey": "AkxuRa1soguFpVRjnDrRsXAcfTkZjRv1XyNXySzVivmC",
+                "label": "GoonFi V2",
+                "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+                "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+                "inAmount": "2685958294",
+                "outAmount": "999622354",
+                "updateContextSlot": "455738455"
+              },
+              "percent": 100,
+              "bps": null
+            }
+          ],
+          "contextSlot": 455738463,
+          "timeTaken": 0.006779073,
+          "swapUsdValue": "999.257915586405707262508",
+          "mostReliableAmmsQuoteReport": {
+            "info": {
+              "C8Gr6AUuq9hEdSYJzoEpNcdjpojPZwqG5MtQbeouNNwg": "8860195535",
+              "BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU": "854275773"
+            }
+          },
+          "longtailMarketQuoteReport": null,
+          "useIncurredSlippageForQuoting": null,
+          "useRewards": null,
+          "otherRoutePlans": null,
+          "loadedLongtailToken": false,
+          "instructionVersion": null,
+          "transactionVersion": 0
+        },
+        "platformFee": {
+          "feeBps": 2,
+          "feeMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "feeAmount": "199924"
+        },
+        "contextSlot": 455738463,
+        "timeTaken": 0.006779073,
+        "routeSummary": "...DvCN → ...Dt1v via GoonFi V2"
+      },
+      {
+        "provider": {
+          "key": "dflow",
+          "id": "95",
+          "name": "DFlow",
+          "logo": "<SWAPIO_ASSET_URL>"
+        },
+        "input": {
+          "token": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "amount": "2685958294",
+          "chainKey": "sol",
+          "chainId": 101,
+          "chainName": "Solana",
+          "chainLogo": "<SWAPIO_ASSET_URL>"
+        },
+        "output": {
+          "token": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "amount": "999207993",
+          "chainKey": "sol",
+          "chainId": 101,
+          "chainName": "Solana",
+          "chainLogo": "<SWAPIO_ASSET_URL>",
+          "amountFormatted": "999.207993"
+        },
+        "priceImpactPct": 0,
+        "minimumOutAmount": "994410835",
+        "fees": {
+          "protocolFees": [],
+          "totalFeePct": 0
+        },
+        "routePlan": [
+          {
+            "input": {
+              "token": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+              "amount": "397789941",
+              "chainKey": "sol",
+              "chainId": 101,
+              "chainName": "Solana",
+              "chainLogo": "<SWAPIO_ASSET_URL>"
+            },
+            "output": {
+              "token": "So11111111111111111111111111111111111111112",
+              "amount": "1319052836",
+              "chainKey": "sol",
+              "chainId": 101,
+              "chainName": "Solana",
+              "chainLogo": "<SWAPIO_ASSET_URL>"
+            },
+            "percentage": 100,
+            "protocol": {
+              "key": "Meteora DLMM",
+              "poolAddress": "Eio6hAieGTAmKgfvbEfbnXke6o5kfEd74tqHm2Z9SFjf",
+              "id": "57",
+              "name": "Meteora DLMM",
+              "logo": "<SWAPIO_ASSET_URL>"
+            }
+          },
+          {
+            "input": {
+              "token": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+              "amount": "2288168353",
+              "chainKey": "sol",
+              "chainId": 101,
+              "chainName": "Solana",
+              "chainLogo": "<SWAPIO_ASSET_URL>"
+            },
+            "output": {
+              "token": "So11111111111111111111111111111111111111112",
+              "amount": "7586347653",
+              "chainKey": "sol",
+              "chainId": 101,
+              "chainName": "Solana",
+              "chainLogo": "<SWAPIO_ASSET_URL>"
+            },
+            "percentage": 100,
+            "protocol": {
+              "key": "Whirlpools",
+              "poolAddress": "C1MgLojNLWBKADvu9BHdtgzz1oZX4dZ5zGdGcgvvW8Wz",
+              "id": "87",
+              "name": "Whirlpool",
+              "logo": "<SWAPIO_ASSET_URL>"
+            }
+          },
+          {
+            "input": {
+              "token": "So11111111111111111111111111111111111111112",
+              "amount": "1319052836",
+              "chainKey": "sol",
+              "chainId": 101,
+              "chainName": "Solana",
+              "chainLogo": "<SWAPIO_ASSET_URL>"
+            },
+            "output": {
+              "token": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+              "amount": "148032148",
+              "chainKey": "sol",
+              "chainId": 101,
+              "chainName": "Solana",
+              "chainLogo": "<SWAPIO_ASSET_URL>"
+            },
+            "percentage": 100,
+            "protocol": {
+              "key": "PancakeSwap",
+              "poolAddress": "DJNtGuBGEQiUCWE8F981M2C3ZghZt2XLD8f2sQdZ6rsZ",
+              "id": "111",
+              "name": "PancakeSwap",
+              "logo": "<SWAPIO_ASSET_URL>"
+            }
+          },
+          {
+            "input": {
+              "token": "So11111111111111111111111111111111111111112",
+              "amount": "7586347653",
+              "chainKey": "sol",
+              "chainId": 101,
+              "chainName": "Solana",
+              "chainLogo": "<SWAPIO_ASSET_URL>"
+            },
+            "output": {
+              "token": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+              "amount": "851375726",
+              "chainKey": "sol",
+              "chainId": 101,
+              "chainName": "Solana",
+              "chainLogo": "<SWAPIO_ASSET_URL>"
+            },
+            "percentage": 100,
+            "protocol": {
+              "key": "DFlow JIT Router",
+              "poolAddress": "DF1ow4tspfHX9JwWJsAb9epbkA8hmpSEAtxXy1V27QBH",
+              "id": "122",
+              "name": "DFlow JIT Router",
+              "logo": "<SWAPIO_ASSET_URL>"
+            }
+          }
+        ],
+        "slippageBps": 50,
+        "swapMode": "ExactIn",
+        "providerQuote": {
+          "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "inAmount": "2685958294",
+          "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "outAmount": "999407874",
+          "otherAmountThreshold": "994410835",
+          "minOutAmount": "994410835",
+          "slippageBps": 50,
+          "platformFee": null,
+          "outTransferFee": null,
+          "priceImpactPct": "0",
+          "routePlan": [
+            {
+              "venue": "Meteora DLMM",
+              "marketKey": "Eio6hAieGTAmKgfvbEfbnXke6o5kfEd74tqHm2Z9SFjf",
+              "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+              "outputMint": "So11111111111111111111111111111111111111112",
+              "inAmount": "397789941",
+              "outAmount": "1319052836",
+              "inputMintDecimals": 6,
+              "outputMintDecimals": 9
+            },
+            {
+              "venue": "Whirlpools",
+              "marketKey": "C1MgLojNLWBKADvu9BHdtgzz1oZX4dZ5zGdGcgvvW8Wz",
+              "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+              "outputMint": "So11111111111111111111111111111111111111112",
+              "inAmount": "2288168353",
+              "outAmount": "7586347653",
+              "inputMintDecimals": 6,
+              "outputMintDecimals": 9
+            },
+            {
+              "venue": "PancakeSwap",
+              "marketKey": "DJNtGuBGEQiUCWE8F981M2C3ZghZt2XLD8f2sQdZ6rsZ",
+              "inputMint": "So11111111111111111111111111111111111111112",
+              "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+              "inAmount": "1319052836",
+              "outAmount": "148032148",
+              "inputMintDecimals": 9,
+              "outputMintDecimals": 6
+            },
+            {
+              "venue": "DFlow JIT Router",
+              "marketKey": "DF1ow4tspfHX9JwWJsAb9epbkA8hmpSEAtxXy1V27QBH",
+              "data": "AgAAAAAAAAAKAAAALAAAAAAAAABDTkM1VGFlTlFFb1NQZlFLWjdHZ2ZNNFI4V1lBSlJLUlNIRkNIa2YySDdrbwEAAAAsAAAAAAAAADhGblgzeG8yeVl3M0VVRTZ3M25RQTRHZlhHUzl3cEs2b2ozdmVKcGJGekxv",
+              "inputMint": "So11111111111111111111111111111111111111112",
+              "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+              "inAmount": "7586347653",
+              "outAmount": "851375726",
+              "inputMintDecimals": 9,
+              "outputMintDecimals": 6
+            }
+          ],
+          "contextSlot": 455738464,
+          "simulatedComputeUnits": 411362,
+          "requestId": "6e078f00-2aef-4cf6-bbb4-2852bcad8eed",
+          "forJitoBundle": false
+        },
+        "platformFee": {
+          "feeBps": 2,
+          "feeMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "feeAmount": "199881"
+        },
+        "contextSlot": 455738464,
+        "routeSummary": "...DvCN → ...1112 → ...Dt1v via Meteora DLMM, Whirlpool, PancakeSwap (+1 more)"
+      },
+      {
+        "provider": {
+          "key": "autobahn",
+          "id": "102",
+          "name": "Autobahn",
+          "logo": "<SWAPIO_ASSET_URL>"
+        },
+        "input": {
+          "token": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "amount": "2685958294",
+          "chainKey": "sol",
+          "chainId": 101,
+          "chainName": "Solana",
+          "chainLogo": "<SWAPIO_ASSET_URL>"
+        },
+        "output": {
+          "token": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "amount": "998893890",
+          "chainKey": "sol",
+          "chainId": 101,
+          "chainName": "Solana",
+          "chainLogo": "<SWAPIO_ASSET_URL>",
+          "amountFormatted": "998.89389"
+        },
+        "priceImpactPct": 0.0153,
+        "minimumOutAmount": "994098239",
+        "fees": {
+          "protocolFees": [
+            {
+              "amount": "1342979",
+              "pct": 0.04999999452709298,
+              "token": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN"
+            },
+            {
+              "amount": "1791868",
+              "pct": 0.02012236577606956,
+              "token": "So11111111111111111111111111111111111111112"
+            }
+          ],
+          "totalFeePct": 0.116712422787902
+        },
+        "routePlan": [
+          {
+            "input": {
+              "token": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+              "amount": "2685958294",
+              "chainKey": "sol",
+              "chainId": 101,
+              "chainName": "Solana",
+              "chainLogo": "<SWAPIO_ASSET_URL>"
+            },
+            "output": {
+              "token": "So11111111111111111111111111111111111111112",
+              "amount": "8904857510",
+              "chainKey": "sol",
+              "chainId": 101,
+              "chainName": "Solana",
+              "chainLogo": "<SWAPIO_ASSET_URL>"
+            },
+            "percentage": 100,
+            "protocol": {
+              "key": "whirlpool",
+              "poolAddress": "C1MgLojNLWBKADvu9BHdtgzz1oZX4dZ5zGdGcgvvW8Wz",
+              "id": "87",
+              "name": "Whirlpool",
+              "logo": "<SWAPIO_ASSET_URL>"
+            },
+            "fee": {
+              "token": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+              "amount": "1342979"
+            }
+          },
+          {
+            "input": {
+              "token": "So11111111111111111111111111111111111111112",
+              "amount": "8904857510",
+              "chainKey": "sol",
+              "chainId": 101,
+              "chainName": "Solana",
+              "chainLogo": "<SWAPIO_ASSET_URL>"
+            },
+            "output": {
+              "token": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+              "amount": "999093708",
+              "chainKey": "sol",
+              "chainId": 101,
+              "chainName": "Solana",
+              "chainLogo": "<SWAPIO_ASSET_URL>"
+            },
+            "percentage": 100,
+            "protocol": {
+              "key": "meteora-dlmm",
+              "poolAddress": "HRYEjwdo3bZ1TpXKWKcezqiwSV2Ywuh4LxMa2PzoCnG6",
+              "id": "57",
+              "name": "Meteora DLMM",
+              "logo": "<SWAPIO_ASSET_URL>"
+            },
+            "fee": {
+              "token": "So11111111111111111111111111111111111111112",
+              "amount": "1791868"
+            }
+          }
+        ],
+        "slippageBps": 50,
+        "swapMode": "ExactIn",
+        "providerQuote": {
+          "accounts": [],
+          "altAddresses": [
+            "Gx22Lkdvm7pNncCtr6ueW5vyMpNraDcWZm5sy8CpfWwN"
+          ],
+          "contextSlot": 455738448,
+          "inAmount": "2685958294",
+          "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "otherAmountThreshold": "994098239",
+          "outAmount": "999093708",
+          "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "platformFee": null,
+          "priceImpactPct": "0.0153",
+          "routePlan": [
+            {
+              "percent": 100,
+              "routeIndex": 0,
+              "swapInfo": {
+                "ammKey": "C1MgLojNLWBKADvu9BHdtgzz1oZX4dZ5zGdGcgvvW8Wz",
+                "feeAmount": "1342979",
+                "feeMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+                "inAmount": "2685958294",
+                "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+                "label": "Orca",
+                "outAmount": "8904857510",
+                "outputMint": "So11111111111111111111111111111111111111112"
+              }
+            },
+            {
+              "percent": 100,
+              "routeIndex": 0,
+              "swapInfo": {
+                "ammKey": "HRYEjwdo3bZ1TpXKWKcezqiwSV2Ywuh4LxMa2PzoCnG6",
+                "feeAmount": "1791868",
+                "feeMint": "So11111111111111111111111111111111111111112",
+                "inAmount": "8904857510",
+                "inputMint": "So11111111111111111111111111111111111111112",
+                "label": "MeteoraDlmm",
+                "outAmount": "999093708",
+                "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v"
+              }
+            }
+          ],
+          "slippageBps": 50,
+          "swapMode": "ExactIn",
+          "timeTaken": 0.966302331
+        },
+        "platformFee": {
+          "feeBps": 2,
+          "feeMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "feeAmount": "199818"
+        },
+        "contextSlot": 455738448,
+        "timeTaken": 0.966302331,
+        "routeSummary": "...DvCN → ...1112 → ...Dt1v via Whirlpool, Meteora DLMM"
+      }
+    ]
+  }
+}

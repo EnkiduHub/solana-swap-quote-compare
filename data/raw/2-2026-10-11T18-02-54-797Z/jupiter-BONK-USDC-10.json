@@ -1,0 +1,68 @@
+{
+  "venue": "jupiter",
+  "url": "https://lite-api.jup.ag/swap/v1/quote?inputMint=DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263&outputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&amount=286656155941&slippageBps=50",
+  "httpStatus": 200,
+  "latencyMs": 16,
+  "request": {
+    "inputMint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+    "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "amountAtomic": "286656155941",
+    "slippageBps": 50
+  },
+  "body": {
+    "inputMint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+    "inAmount": "286656155941",
+    "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "outAmount": "9990519",
+    "otherAmountThreshold": "9940567",
+    "swapMode": "ExactIn",
+    "slippageBps": 50,
+    "platformFee": null,
+    "priceImpactPct": "0.0006306035627670324566676207",
+    "routePlan": [
+      {
+        "swapInfo": {
+          "ammKey": "5zpyutJu9ee6jFymDGoK7F6S5Kczqtc9FomP3ueKuyA9",
+          "label": "Whirlpool",
+          "inputMint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+          "outputMint": "So11111111111111111111111111111111111111112",
+          "inAmount": "286656155941",
+          "outAmount": "89129840",
+          "updateContextSlot": "455742771"
+        },
+        "percent": 100,
+        "bps": null
+      },
+      {
+        "swapInfo": {
+          "ammKey": "82RLfDeEAoYtx3rwZF7igAQC1nGsBBvAMkygB5mcJojZ",
+          "label": "Flux",
+          "inputMint": "So11111111111111111111111111111111111111112",
+          "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "inAmount": "89129840",
+          "outAmount": "9990519",
+          "updateContextSlot": "455743047"
+        },
+        "percent": 100,
+        "bps": null
+      }
+    ],
+    "contextSlot": 455743047,
+    "timeTaken": 0.005630699,
+    "swapUsdValue": "9.986749111562412206556",
+    "mostReliableAmmsQuoteReport": {
+      "info": {
+        "8B8KYcFPMjZyDtJ1BENsqhW3fEmMrB4ekoEQJiM6z3SC": "9984139",
+        "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE": "9951977",
+        "BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU": "9988606"
+      }
+    },
+    "longtailMarketQuoteReport": null,
+    "useIncurredSlippageForQuoting": null,
+    "useRewards": null,
+    "otherRoutePlans": null,
+    "loadedLongtailToken": false,
+    "instructionVersion": null,
+    "transactionVersion": 0
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "venue": "jupiter",
+  "url": "https://lite-api.jup.ag/swap/v1/quote?inputMint=So11111111111111111111111111111111111111112&outputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&amount=89345376&slippageBps=50",
+  "httpStatus": 200,
+  "latencyMs": 78,
+  "request": {
+    "inputMint": "So11111111111111111111111111111111111111112",
+    "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "amountAtomic": "89345376",
+    "slippageBps": 50
+  },
+  "body": {
+    "inputMint": "So11111111111111111111111111111111111111112",
+    "inAmount": "89345376",
+    "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "outAmount": "9999973",
+    "otherAmountThreshold": "9949974",
+    "swapMode": "ExactIn",
+    "slippageBps": 50,
+    "platformFee": null,
+    "priceImpactPct": "0.0000039919667176756042144177",
+    "routePlan": [
+      {
+        "swapInfo": {
+          "ammKey": "FJnaiidSLXFweWkgbinxEHRykVHsnkzDcYbNDR3RF5LN",
+          "label": "BisonFi",
+          "inputMint": "So11111111111111111111111111111111111111112",
+          "outputMint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+          "inAmount": "89345376",
+          "outAmount": "10009301",
+          "updateContextSlot": "455747953"
+        },
+        "percent": 100,
+        "bps": null
+      },
+      {
+        "swapInfo": {
+          "ammKey": "FkEB6uvyzuoaGpgs4yRtFtxC4WJxhejNFbUkj5R6wR32",
+          "label": "SolFi V2",
+          "inputMint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+          "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "inAmount": "10009301",
+          "outAmount": "9999973",
+          "updateContextSlot": "455747953"
+        },
+        "percent": 100,
+        "bps": null
+      }
+    ],
+    "contextSlot": 455747953,
+    "timeTaken": 0.001377515,
+    "swapUsdValue": "9.996271782840114459552",
+    "mostReliableAmmsQuoteReport": {
+      "info": {
+        "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE": "9992220",
+        "8sjV1AqBFvFuADBCQHhotaRq5DFFYSjjg1jMyVWMqXvZ": "9999969",
+        "BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU": "9999353"
+      }
+    },
+    "longtailMarketQuoteReport": null,
+    "useIncurredSlippageForQuoting": null,
+    "useRewards": null,
+    "otherRoutePlans": null,
+    "loadedLongtailToken": false,
+    "instructionVersion": null,
+    "transactionVersion": 0
+  }
+}

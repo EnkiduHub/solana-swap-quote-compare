@@ -1,0 +1,28 @@
+{
+  "roundId": "1-2026-10-11T17-46-11-331Z",
+  "startedAt": "2026-10-11T17:46:11.331Z",
+  "slippageBps": 50,
+  "prices": {
+    "SOL": 112.2349,
+    "JUP": 0.3723066,
+    "BONK": 0.0000034846729999999997
+  },
+  "priceMeta": {
+    "SOL": {
+      "usd": 112.2349,
+      "probeAtomic": "100000000",
+      "probeOut": "11223490"
+    },
+    "JUP": {
+      "usd": 0.3723066,
+      "probeAtomic": "50000000",
+      "probeOut": "18615330"
+    },
+    "BONK": {
+      "usd": 0.0000034846729999999997,
+      "probeAtomic": "100000000000",
+      "probeOut": "3484673"
+    }
+  },
+  "note": "USD/token from Jupiter lite quote probes at round start; not Pyth."
+}

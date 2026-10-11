@@ -1,0 +1,31 @@
+{
+  "roundId": "3-2026-10-11T18-20-55-615Z",
+  "startedAt": "2026-10-11T18:20:55.615Z",
+  "slippageBps": 50,
+  "prices": {
+    "SOL": 111.92520999999999,
+    "JUP": 0.36959656,
+    "BONK": 0.0000034661
+  },
+  "priceMeta": {
+    "SOL": {
+      "usd": 111.92520999999999,
+      "probeAtomic": "100000000",
+      "probeOut": "11192521",
+      "probeUrl": "https://lite-api.jup.ag/swap/v1/quote?inputMint=So11111111111111111111111111111111111111112&outputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&amount=100000000&slippageBps=50"
+    },
+    "JUP": {
+      "usd": 0.36959656,
+      "probeAtomic": "50000000",
+      "probeOut": "18479828",
+      "probeUrl": "https://lite-api.jup.ag/swap/v1/quote?inputMint=JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN&outputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&amount=50000000&slippageBps=50"
+    },
+    "BONK": {
+      "usd": 0.0000034661,
+      "probeAtomic": "100000000000",
+      "probeOut": "3466100",
+      "probeUrl": "https://lite-api.jup.ag/swap/v1/quote?inputMint=DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263&outputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&amount=100000000000&slippageBps=50"
+    }
+  },
+  "note": "USD/token from Jupiter lite quote probes at round start; not Pyth."
+}

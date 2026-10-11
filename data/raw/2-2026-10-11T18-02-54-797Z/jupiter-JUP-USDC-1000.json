@@ -1,0 +1,95 @@
+{
+  "venue": "jupiter",
+  "url": "https://lite-api.jup.ag/swap/v1/quote?inputMint=JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN&outputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&amount=2685819208&slippageBps=50",
+  "httpStatus": 200,
+  "latencyMs": 131,
+  "request": {
+    "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+    "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "amountAtomic": "2685819208",
+    "slippageBps": 50
+  },
+  "body": {
+    "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+    "inAmount": "2685819208",
+    "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "outAmount": "999105851",
+    "otherAmountThreshold": "994110322",
+    "swapMode": "ExactIn",
+    "slippageBps": 50,
+    "platformFee": null,
+    "priceImpactPct": "0.0034210604131501752028588352",
+    "routePlan": [
+      {
+        "swapInfo": {
+          "ammKey": "AkxuRa1soguFpVRjnDrRsXAcfTkZjRv1XyNXySzVivmC",
+          "label": "GoonFi V2",
+          "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "inAmount": "2497811864",
+          "outAmount": "929171026",
+          "updateContextSlot": "455743031"
+        },
+        "percent": 93,
+        "bps": null
+      },
+      {
+        "swapInfo": {
+          "ammKey": "C1MgLojNLWBKADvu9BHdtgzz1oZX4dZ5zGdGcgvvW8Wz",
+          "label": "Whirlpool",
+          "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "outputMint": "So11111111111111111111111111111111111111112",
+          "inAmount": "188007344",
+          "outAmount": "623844234",
+          "updateContextSlot": "455742983"
+        },
+        "percent": 7,
+        "bps": null
+      },
+      {
+        "swapInfo": {
+          "ammKey": "3nLR2KnqC4ZHmPbjJgZCmfKazPjyxZEeqQv77sctcs4P",
+          "label": "PancakeSwap",
+          "inputMint": "So11111111111111111111111111111111111111112",
+          "outputMint": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+          "inAmount": "623844234",
+          "outAmount": "2755281",
+          "updateContextSlot": "455743029"
+        },
+        "percent": 100,
+        "bps": null
+      },
+      {
+        "swapInfo": {
+          "ammKey": "5mHTXRU1bgBDo9vUoHKkCidbFRc2mLHSgTTdQyZBjMfg",
+          "label": "GoonFi V2",
+          "inputMint": "7vfCXTUXx5WJV5JADk17DUJ4ksgau7utNKj4b963voxs",
+          "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "inAmount": "2755281",
+          "outAmount": "69934825",
+          "updateContextSlot": "455743036"
+        },
+        "percent": 100,
+        "bps": null
+      }
+    ],
+    "contextSlot": 455743038,
+    "timeTaken": 0.118606759,
+    "swapUsdValue": "998.728841798014476249324",
+    "mostReliableAmmsQuoteReport": {
+      "info": {
+        "Czfq3xZZDmsdGdUyrNLtRhGc47cXcZtLG4crryfu44zE": "854901445",
+        "C8Gr6AUuq9hEdSYJzoEpNcdjpojPZwqG5MtQbeouNNwg": "8861447328",
+        "BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU": "998673824",
+        "HktfL7iwGKT5QHjywQkcDnZXScoh811k7akrMZJkCcEF": "33679517"
+      }
+    },
+    "longtailMarketQuoteReport": null,
+    "useIncurredSlippageForQuoting": null,
+    "useRewards": null,
+    "otherRoutePlans": null,
+    "loadedLongtailToken": false,
+    "instructionVersion": null,
+    "transactionVersion": 0
+  }
+}

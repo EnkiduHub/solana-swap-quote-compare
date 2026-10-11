@@ -1,0 +1,56 @@
+{
+  "venue": "raydium",
+  "url": "https://transaction-v1.raydium.io/compute/swap-base-in?inputMint=JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN&outputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&amount=2685819208&slippageBps=50&txVersion=V0",
+  "httpStatus": 200,
+  "latencyMs": 235,
+  "request": {
+    "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+    "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "amountAtomic": "2685819208",
+    "slippageBps": 50
+  },
+  "body": {
+    "id": "db54049e-b9ae-4bac-ae0b-9760c4c74530",
+    "success": true,
+    "version": "V1",
+    "data": {
+      "swapType": "BaseIn",
+      "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+      "inputAmount": "2685819208",
+      "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "outputAmount": "993668031",
+      "otherAmountThreshold": "988699690",
+      "slippageBps": 50,
+      "priceImpactPct": 1.01,
+      "referrerAmount": "0",
+      "actualInputAmount": "2685819208",
+      "routePlan": [
+        {
+          "poolId": "EZVkeboWeXygtq8LMyENHyXdF5wpYrtExRNH9UwB1qYw",
+          "inputMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "outputMint": "So11111111111111111111111111111111111111112",
+          "feeMint": "JUPyiwrYJFskUPiHa7hkeR8VUtAeFoSYbKedZNsDvCN",
+          "feeRate": 5,
+          "feeAmount": "1342913",
+          "remainingAccounts": [
+            "63PUeLjJjBCX1nvkruhPJygm7oSJyRgEdrtyhmvJ122H",
+            "71pndhVHt3rHjN1fmemRAef9ExuhGcLQJxLvT6ccVazf"
+          ],
+          "lastPoolPriceX64": "33440306504127361034"
+        },
+        {
+          "poolId": "3ucNos4NbumPLZNWztqGHNFFgkHeRMBQAVemeeomsUxv",
+          "inputMint": "So11111111111111111111111111111111111111112",
+          "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "feeMint": "So11111111111111111111111111111111111111112",
+          "feeRate": 4,
+          "feeAmount": "3546701",
+          "remainingAccounts": [
+            "hjhUwY8i9dujUsVFfwW53trr3FpJGwwCp9ium5HpcUj"
+          ],
+          "lastPoolPriceX64": "6176465696214696398"
+        }
+      ]
+    }
+  }
+}

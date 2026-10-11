@@ -1,0 +1,40 @@
+{
+  "venue": "raydium",
+  "url": "https://transaction-v1.raydium.io/compute/swap-base-in?inputMint=DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263&outputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&amount=286970972599&slippageBps=50&txVersion=V0",
+  "httpStatus": 200,
+  "latencyMs": 364,
+  "request": {
+    "inputMint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+    "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "amountAtomic": "286970972599",
+    "slippageBps": 50
+  },
+  "body": {
+    "id": "afe87a04-dd02-41f1-bcd0-0b102e865a5a",
+    "success": true,
+    "version": "V1",
+    "data": {
+      "swapType": "BaseIn",
+      "inputMint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+      "inputAmount": "286970972599",
+      "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "outputAmount": "9987365",
+      "otherAmountThreshold": "9937428",
+      "slippageBps": 50,
+      "priceImpactPct": 0.07,
+      "referrerAmount": "0",
+      "actualInputAmount": "286970972599",
+      "routePlan": [
+        {
+          "poolId": "G7mw1d83ismcQJKkzt62Ug4noXCjVhu3eV7U5EMgge6Z",
+          "inputMint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+          "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "feeMint": "DezXAZ8z7PnrnRJjz3wXBoRgixCa6xjnB7YaB1pPB263",
+          "feeRate": 25,
+          "feeAmount": "717427432",
+          "remainingAccounts": []
+        }
+      ]
+    }
+  }
+}

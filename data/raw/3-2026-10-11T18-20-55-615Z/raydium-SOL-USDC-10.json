@@ -1,0 +1,55 @@
+{
+  "venue": "raydium",
+  "url": "https://transaction-v1.raydium.io/compute/swap-base-in?inputMint=So11111111111111111111111111111111111111112&outputMint=EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v&amount=89345376&slippageBps=50&txVersion=V0",
+  "httpStatus": 200,
+  "latencyMs": 678,
+  "request": {
+    "inputMint": "So11111111111111111111111111111111111111112",
+    "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+    "amountAtomic": "89345376",
+    "slippageBps": 50
+  },
+  "body": {
+    "id": "e9f05f12-7d94-483c-b2b5-06ae433be3b6",
+    "success": true,
+    "version": "V1",
+    "data": {
+      "swapType": "BaseIn",
+      "inputMint": "So11111111111111111111111111111111111111112",
+      "inputAmount": "89345376",
+      "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+      "outputAmount": "9998395",
+      "otherAmountThreshold": "9948403",
+      "slippageBps": 50,
+      "priceImpactPct": 0,
+      "referrerAmount": "0",
+      "actualInputAmount": "89345376",
+      "routePlan": [
+        {
+          "poolId": "3nMFwZXwY1s1M5s8vYAHqd4wGs4iSxXE4LRoUMMYqEgF",
+          "inputMint": "So11111111111111111111111111111111111111112",
+          "outputMint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+          "feeMint": "So11111111111111111111111111111111111111112",
+          "feeRate": 1,
+          "feeAmount": "8935",
+          "remainingAccounts": [
+            "BRZ2FRU5WS8HfFpKKsNboEopTN2trwL883PcHkp4Qt61"
+          ],
+          "lastPoolPriceX64": "6174258679175256573"
+        },
+        {
+          "poolId": "BZtgQEyS6eXUXicYPHecYQ7PybqodXQMvkjUbP4R8mUU",
+          "inputMint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+          "outputMint": "EPjFWdd5AufqSSqeM2qN1xzybapC8G4wEGGkZwyTDt1v",
+          "feeMint": "Es9vMFrzaCERmJfrF4H2FYD4KCoNkY11McCe8BenwNYB",
+          "feeRate": 1,
+          "feeAmount": "1001",
+          "remainingAccounts": [
+            "2CntbsRKrr4an5zekGb8WZyPyPzbXv9R2CErrRQSQVo2"
+          ],
+          "lastPoolPriceX64": "18454994220581007799"
+        }
+      ]
+    }
+  }
+}
